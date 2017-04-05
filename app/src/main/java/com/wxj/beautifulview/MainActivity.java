@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         rv_list.setAdapter(adapter);
         rv_list.addItemDecoration(new SpanItemDecoration(10));
+        //////////// change files /////////////////////
     }
 
     @Override
