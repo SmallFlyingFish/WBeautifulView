@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         tb = (Toolbar) findViewById(R.id.tb_main);
         tb.setNavigationIcon(R.drawable.face_add);
-        tb.setTitle("永恒纪元");
+        tb.setTitle("BeautifulView");
         setSupportActionBar(tb);
 
         dialog = new MyDialog(this);
