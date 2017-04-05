@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.uniview.support.drag.DragTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="支援灾区"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="输入内容啦"
+        android:textSize="20sp" />
+
+    <com.uniview.support.login.view.widget.MarqueeTextView
+        android:id="@+id/mtv_marquee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="跑马灯效果跑马灯效果跑马灯效果跑马灯效果跑马灯效果跑马灯效果跑马灯效果跑马灯效果跑马灯效果跑马灯效果跑马灯效果"
+        android:textSize="20sp" />
+
+</LinearLayout>

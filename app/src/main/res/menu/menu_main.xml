@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/id_select_local_picture_item"
+        android:icon="@drawable/face_appicon"
+        android:orderInCategory="100"
+        android:title="选择本地图片"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/id_edit_item"
+        android:icon="@drawable/ic_close"
+        android:title="编辑"
+        app:showAsAction="always" />
+
+</menu>
