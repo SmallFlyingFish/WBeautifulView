@@ -27,7 +27,6 @@ public class MyDialog extends Dialog {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dialog_float);
-        assert getWindow() != null;
         getWindow().setGravity(Gravity.CENTER);
 
         setCanceledOnTouchOutside(true);
