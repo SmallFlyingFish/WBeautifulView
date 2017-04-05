@@ -15,7 +15,7 @@ import android.view.View;
 public class CalendarView extends View {
 
     public CalendarView(Context context) {
-        super(context);
+        this(context, null);
     }
 
     public CalendarView(Context context, @Nullable AttributeSet attrs) {
