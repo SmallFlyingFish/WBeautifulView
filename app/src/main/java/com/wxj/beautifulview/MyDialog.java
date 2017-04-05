@@ -31,5 +31,6 @@ public class MyDialog extends Dialog {
 
         setCanceledOnTouchOutside(true);
         setCancelable(false);
+        ///////master///////////////////
     }
 }
